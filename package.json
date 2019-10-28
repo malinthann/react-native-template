@@ -1,0 +1,26 @@
+{
+  "name": "react-native-template",
+  "version": "0.0.1",
+  "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delyethan/react-native-template.git"
+  },
+  "keywords": [
+    "react-native",
+    "typescript",
+    "jest",
+    "template",
+    "boilerplate"
+  ],
+  "author": "Ethan <h.delyethan@puc.edu.kh>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delyethan/react-native-template/issues"
+  },
+  "homepage": "https://github.com/delyethan/react-native-template#readme"
+}
