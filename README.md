@@ -1,5 +1,26 @@
 ## React Native Typescript
 
+## Quickstart
+
+To get started with our template, run one of the following commands:
+```shell
+# using npx, install our latest version from npm
+npx react-native init MyApp --template=@delyethan/react-native-template
+
+# using npx and the github repo directly
+npx react-native init MyApp --template=https://github.com/delyethan/react-native-template
+
+# using yarn & the react-native cli
+yarn global add react-native-cli
+react-native init MyApp --template=https://github.com/delyethan/react-native-template
+```
+
+If you see an error after installing using the first option, pass the flag `--ignore-existing` and run:
+```shell
+npx --ignore-existing react-native init MyApp --template=@delyethan/react-native-template
+```
+
+
 ### dependencies
 
     {
