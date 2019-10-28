@@ -34,8 +34,7 @@ npx --ignore-existing react-native init MyApp --template=@delyethan/react-native
     "mobx-react": "^5.4.4",
     "moment": "^2.24.0",
     "react": "16.9.0",
-    "react-dom": "^16.9.0",
-    "react-native": "^0.61.1",
+    "react-native": "^0.61.2",
     "react-native-fast-image": "^7.0.2",
     "react-native-firebase": "^5.5.6",
     "react-native-gesture-handler": "^1.3.0",
@@ -49,9 +48,9 @@ npx --ignore-existing react-native init MyApp --template=@delyethan/react-native
     "react-native-snap-carousel": "^3.8.1",
     "react-native-splash-screen": "^3.2.0",
     "react-native-vector-icons": "^6.6.0",
-    "react-navigation": "^4.0.7",
-    "react-navigation-stack": "^1.8.1",
-    "react-navigation-tabs": "^2.5.5",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^1.10.3",
+    "react-navigation-tabs": "^2.5.6",
     "rn-placeholder": "^3.0.0"
     }
 
