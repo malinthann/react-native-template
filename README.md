@@ -4,20 +4,9 @@
 
 To get started with our template, run one of the following commands:
 ```shell
-# using npx, install our latest version from npm
-npx react-native init MyApp --template=@delyethan/react-native-template
-
 # using npx and the github repo directly
 npx react-native init MyApp --template=https://github.com/delyethan/react-native-template
 
-# using yarn & the react-native cli
-yarn global add react-native-cli
-react-native init MyApp --template=https://github.com/delyethan/react-native-template
-```
-
-If you see an error after installing using the first option, pass the flag `--ignore-existing` and run:
-```shell
-npx --ignore-existing react-native init MyApp --template=@delyethan/react-native-template
 ```
 
 
@@ -34,7 +23,7 @@ npx --ignore-existing react-native init MyApp --template=@delyethan/react-native
     "mobx-react": "^5.4.4",
     "moment": "^2.24.0",
     "react": "16.9.0",
-    "react-native": "^0.61.2",
+    "react-native": "^0.61.4",
     "react-native-fast-image": "^7.0.2",
     "react-native-firebase": "^5.5.6",
     "react-native-gesture-handler": "^1.3.0",
@@ -57,11 +46,11 @@ npx --ignore-existing react-native init MyApp --template=@delyethan/react-native
 ### devDependencies
 
     {
-    "@babel/core": "^7.5.5",
+    "@babel/core": "^7.6.2",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/plugin-proposal-decorators": "^7.4.4",
     "@babel/plugin-transform-flow-strip-types": "^7.4.4",
-    "@babel/runtime": "^7.5.5",
+    "@babel/runtime": "^7.6.2",
     "@types/jest": "^24.0.18",
     "@types/react": "^16.9.2",
     "@types/react-native": "^0.60.7",
@@ -71,6 +60,6 @@ npx --ignore-existing react-native init MyApp --template=@delyethan/react-native
     "eslint": "^6.2.1",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.56.0",
-    "react-test-renderer": "16.8.6",
+    "react-test-renderer": "16.9.0",
     "typescript": "^3.5.3"
     }

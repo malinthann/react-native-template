@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HelloWorldTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -15,31 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HelloWorldTests.m */; };
-		F854B5C92366C17D00FFE2EE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F854B5C82366C17D00FFE2EE /* File.swift */; };
-		834AA29FDF0942148EEBE553 /* GoogleSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 611D61BFABCA4065B636AAE2 /* GoogleSans-Bold.ttf */; };
-		142BB4DBA80545F6BE6325C7 /* GoogleSans-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 358A3EA4D8A54B4483B65695 /* GoogleSans-Normal.ttf */; };
-		BF984E49F5CD42B98994D003 /* GoogleSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8000A7C979784BCE9FE0EFA7 /* GoogleSans-SemiBold.ttf */; };
-		3D4D23E357CE4FE8ADD90592 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71BDA4E8CBCE45C09FE1C277 /* OpenSans-Bold.ttf */; };
-		8B3E3E1E15514B12848AABEA /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E2CB65CCA304BC1AF6E043F /* OpenSans-ExtraBold.ttf */; };
-		3962FDE81B894C6FB2A3623C /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D42CB8629E64448599D5FC7C /* OpenSans-Light.ttf */; };
-		8EA28273EDD0424E9A0A83A6 /* OpenSans-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD0B0EC6E2B540EFAFA3A650 /* OpenSans-Normal.ttf */; };
-		BCA54657AE434AAE88542FD9 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2236B02044BE41CDAFA8941E /* OpenSans-SemiBold.ttf */; };
-		8B7D3319B77348BA8F251504 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82800D0D87904FB9A69B180C /* AntDesign.ttf */; };
-		C697B1F6EA7341B3AB02CE70 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 632055F4E2DF4E4EB5A5B8E2 /* Entypo.ttf */; };
-		B2078C654D334C768CB05752 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF72D309EB7F4F939CB776AB /* EvilIcons.ttf */; };
-		6AC8AF4B12964AFE817335B0 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2076B7AFD9C24981965E1569 /* Feather.ttf */; };
-		893ED3B007B54B379824DBAB /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF7FDDB80B884D238D2827A4 /* FontAwesome.ttf */; };
-		AB543A98C56647A4B5BE814A /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1A0B341690546A5A74239D6 /* FontAwesome5_Brands.ttf */; };
-		3AB9DB54A85040DCBF03103A /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09608D2F2B8F47388854DF32 /* FontAwesome5_Regular.ttf */; };
-		33D59DEFEE4E454494CAFFB6 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E3C1263124125931D132F /* FontAwesome5_Solid.ttf */; };
-		7D90E8940E304FD9B7D17ADC /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7903FE5B825140F2AE96EDF1 /* Fontisto.ttf */; };
-		51C25D954A994823808D68DD /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F75186A11BAA41D19EC313B9 /* Foundation.ttf */; };
-		BF16005EBEEC4BFDA8B2DFF1 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC3F15907891432695612C03 /* Ionicons.ttf */; };
-		36BFFFA83C9D45A0B87D47D9 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EEE2865355C425AB0CEE5DC /* MaterialCommunityIcons.ttf */; };
-		B0B0D9EDF73C421A8773ED75 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7604501F8C6242B6B6D612F1 /* MaterialIcons.ttf */; };
-		DBCB4740220E459B87933EEE /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF8779C0AF341F39A6B2289 /* Octicons.ttf */; };
-		1A4B32C1BB42464289A36B90 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FAD00E032C24A7192CD2098 /* SimpleLineIcons.ttf */; };
-		3130E55092BF4493916DA3B4 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A764B8BAF2AF4AD08B3391B2 /* Zocial.ttf */; };
+		3F0EF57CAE218F9DD84BF64A /* libPods-HelloWorld-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36226FF11EF1403C16C05921 /* libPods-HelloWorld-tvOSTests.a */; };
+		774B32D69B088AAEC7392322 /* libPods-HelloWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B31A86F96912FCA841B976 /* libPods-HelloWorld.a */; };
+		96EC42770AAC99D51797341A /* libPods-HelloWorldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E30BF11558452BE7397AD21C /* libPods-HelloWorldTests.a */; };
+		A99C89F5F70052A999ED0C6E /* libPods-HelloWorld-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F759D5FE1FB4E1E7B40CC0E /* libPods-HelloWorld-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +44,8 @@
 		00E356EE1AD99517003FC87E /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		02C2926295AF2436C77F3906 /* Pods-HelloWorldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.release.xcconfig"; path = "Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.release.xcconfig"; sourceTree = "<group>"; };
+		0812038BAE05AE58D8D7EF92 /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HelloWorld/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HelloWorld/AppDelegate.m; sourceTree = "<group>"; };
@@ -71,36 +53,20 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HelloWorld/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HelloWorld/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HelloWorld/main.m; sourceTree = "<group>"; };
+		150F9CAB1F37E25441833878 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* HelloWorld-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloWorld-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* HelloWorld-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HelloWorld-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36226FF11EF1403C16C05921 /* libPods-HelloWorld-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorld-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AEB0CA6FABC523DFBF9C4BD /* Pods-HelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DF4F4EE229335945830194F /* Pods-HelloWorld-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld-tvOSTests/Pods-HelloWorld-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A7BF7D6C01DD33DD6DCB9DC /* Pods-HelloWorld-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld-tvOS.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		5F759D5FE1FB4E1E7B40CC0E /* libPods-HelloWorld-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorld-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFDF97007A31AB6D863CAFB /* Pods-HelloWorld-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld-tvOSTests/Pods-HelloWorld-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B22F96AD0271B1564A37562A /* Pods-HelloWorld-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C0B31A86F96912FCA841B976 /* libPods-HelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E30BF11558452BE7397AD21C /* libPods-HelloWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F854B5C72366C17D00FFE2EE /* HelloWorld-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Bridging-Header.h"; sourceTree = "<group>"; };
-		F854B5C82366C17D00FFE2EE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		611D61BFABCA4065B636AAE2 /* GoogleSans-Bold.ttf */ = {isa = PBXFileReference; name = "GoogleSans-Bold.ttf"; path = "../assets/fonts/GoogleSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		358A3EA4D8A54B4483B65695 /* GoogleSans-Normal.ttf */ = {isa = PBXFileReference; name = "GoogleSans-Normal.ttf"; path = "../assets/fonts/GoogleSans-Normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8000A7C979784BCE9FE0EFA7 /* GoogleSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "GoogleSans-SemiBold.ttf"; path = "../assets/fonts/GoogleSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		71BDA4E8CBCE45C09FE1C277 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7E2CB65CCA304BC1AF6E043F /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "OpenSans-ExtraBold.ttf"; path = "../assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D42CB8629E64448599D5FC7C /* OpenSans-Light.ttf */ = {isa = PBXFileReference; name = "OpenSans-Light.ttf"; path = "../assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CD0B0EC6E2B540EFAFA3A650 /* OpenSans-Normal.ttf */ = {isa = PBXFileReference; name = "OpenSans-Normal.ttf"; path = "../assets/fonts/OpenSans-Normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2236B02044BE41CDAFA8941E /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "OpenSans-SemiBold.ttf"; path = "../assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		82800D0D87904FB9A69B180C /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		632055F4E2DF4E4EB5A5B8E2 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EF72D309EB7F4F939CB776AB /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2076B7AFD9C24981965E1569 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FF7FDDB80B884D238D2827A4 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E1A0B341690546A5A74239D6 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		09608D2F2B8F47388854DF32 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0A9E3C1263124125931D132F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7903FE5B825140F2AE96EDF1 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F75186A11BAA41D19EC313B9 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DC3F15907891432695612C03 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0EEE2865355C425AB0CEE5DC /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7604501F8C6242B6B6D612F1 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EDF8779C0AF341F39A6B2289 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3FAD00E032C24A7192CD2098 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A764B8BAF2AF4AD08B3391B2 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96EC42770AAC99D51797341A /* libPods-HelloWorldTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				774B32D69B088AAEC7392322 /* libPods-HelloWorld.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A99C89F5F70052A999ED0C6E /* libPods-HelloWorld-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0EF57CAE218F9DD84BF64A /* libPods-HelloWorld-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +122,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		12F9C205952A755057F02D34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0812038BAE05AE58D8D7EF92 /* Pods-HelloWorld.debug.xcconfig */,
+				150F9CAB1F37E25441833878 /* Pods-HelloWorld.release.xcconfig */,
+				B22F96AD0271B1564A37562A /* Pods-HelloWorld-tvOS.debug.xcconfig */,
+				4A7BF7D6C01DD33DD6DCB9DC /* Pods-HelloWorld-tvOS.release.xcconfig */,
+				7DFDF97007A31AB6D863CAFB /* Pods-HelloWorld-tvOSTests.debug.xcconfig */,
+				3DF4F4EE229335945830194F /* Pods-HelloWorld-tvOSTests.release.xcconfig */,
+				3AEB0CA6FABC523DFBF9C4BD /* Pods-HelloWorldTests.debug.xcconfig */,
+				02C2926295AF2436C77F3906 /* Pods-HelloWorldTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,8 +148,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				F854B5C82366C17D00FFE2EE /* File.swift */,
-				F854B5C72366C17D00FFE2EE /* HelloWorld-Bridging-Header.h */,
 			);
 			name = HelloWorld;
 			sourceTree = "<group>";
@@ -173,6 +157,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				C0B31A86F96912FCA841B976 /* libPods-HelloWorld.a */,
+				5F759D5FE1FB4E1E7B40CC0E /* libPods-HelloWorld-tvOS.a */,
+				36226FF11EF1403C16C05921 /* libPods-HelloWorld-tvOSTests.a */,
+				E30BF11558452BE7397AD21C /* libPods-HelloWorldTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* HelloWorldTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				EA53187B9AB14B879702C82C /* Resources */,
+				12F9C205952A755057F02D34 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -210,38 +198,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA53187B9AB14B879702C82C /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				611D61BFABCA4065B636AAE2 /* GoogleSans-Bold.ttf */,
-				358A3EA4D8A54B4483B65695 /* GoogleSans-Normal.ttf */,
-				8000A7C979784BCE9FE0EFA7 /* GoogleSans-SemiBold.ttf */,
-				71BDA4E8CBCE45C09FE1C277 /* OpenSans-Bold.ttf */,
-				7E2CB65CCA304BC1AF6E043F /* OpenSans-ExtraBold.ttf */,
-				D42CB8629E64448599D5FC7C /* OpenSans-Light.ttf */,
-				CD0B0EC6E2B540EFAFA3A650 /* OpenSans-Normal.ttf */,
-				2236B02044BE41CDAFA8941E /* OpenSans-SemiBold.ttf */,
-				82800D0D87904FB9A69B180C /* AntDesign.ttf */,
-				632055F4E2DF4E4EB5A5B8E2 /* Entypo.ttf */,
-				EF72D309EB7F4F939CB776AB /* EvilIcons.ttf */,
-				2076B7AFD9C24981965E1569 /* Feather.ttf */,
-				FF7FDDB80B884D238D2827A4 /* FontAwesome.ttf */,
-				E1A0B341690546A5A74239D6 /* FontAwesome5_Brands.ttf */,
-				09608D2F2B8F47388854DF32 /* FontAwesome5_Regular.ttf */,
-				0A9E3C1263124125931D132F /* FontAwesome5_Solid.ttf */,
-				7903FE5B825140F2AE96EDF1 /* Fontisto.ttf */,
-				F75186A11BAA41D19EC313B9 /* Foundation.ttf */,
-				DC3F15907891432695612C03 /* Ionicons.ttf */,
-				0EEE2865355C425AB0CEE5DC /* MaterialCommunityIcons.ttf */,
-				7604501F8C6242B6B6D612F1 /* MaterialIcons.ttf */,
-				EDF8779C0AF341F39A6B2289 /* Octicons.ttf */,
-				3FAD00E032C24A7192CD2098 /* SimpleLineIcons.ttf */,
-				A764B8BAF2AF4AD08B3391B2 /* Zocial.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HelloWorldTests" */;
 			buildPhases = (
+				355CC7DA8337F5AEF1698A77 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -267,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HelloWorld" */;
 			buildPhases = (
+				9974192A56059547AD4F4AE6 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -286,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "HelloWorld-tvOS" */;
 			buildPhases = (
+				70C302280806BDA1807A26BD /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -305,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "HelloWorld-tvOSTests" */;
 			buildPhases = (
+				EB6717BF3EB29DDABE654B33 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -325,15 +285,12 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 940;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
-					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1110;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -351,7 +308,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -382,30 +338,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				834AA29FDF0942148EEBE553 /* GoogleSans-Bold.ttf in Resources */,
-				142BB4DBA80545F6BE6325C7 /* GoogleSans-Normal.ttf in Resources */,
-				BF984E49F5CD42B98994D003 /* GoogleSans-SemiBold.ttf in Resources */,
-				3D4D23E357CE4FE8ADD90592 /* OpenSans-Bold.ttf in Resources */,
-				8B3E3E1E15514B12848AABEA /* OpenSans-ExtraBold.ttf in Resources */,
-				3962FDE81B894C6FB2A3623C /* OpenSans-Light.ttf in Resources */,
-				8EA28273EDD0424E9A0A83A6 /* OpenSans-Normal.ttf in Resources */,
-				BCA54657AE434AAE88542FD9 /* OpenSans-SemiBold.ttf in Resources */,
-				8B7D3319B77348BA8F251504 /* AntDesign.ttf in Resources */,
-				C697B1F6EA7341B3AB02CE70 /* Entypo.ttf in Resources */,
-				B2078C654D334C768CB05752 /* EvilIcons.ttf in Resources */,
-				6AC8AF4B12964AFE817335B0 /* Feather.ttf in Resources */,
-				893ED3B007B54B379824DBAB /* FontAwesome.ttf in Resources */,
-				AB543A98C56647A4B5BE814A /* FontAwesome5_Brands.ttf in Resources */,
-				3AB9DB54A85040DCBF03103A /* FontAwesome5_Regular.ttf in Resources */,
-				33D59DEFEE4E454494CAFFB6 /* FontAwesome5_Solid.ttf in Resources */,
-				7D90E8940E304FD9B7D17ADC /* Fontisto.ttf in Resources */,
-				51C25D954A994823808D68DD /* Foundation.ttf in Resources */,
-				BF16005EBEEC4BFDA8B2DFF1 /* Ionicons.ttf in Resources */,
-				36BFFFA83C9D45A0B87D47D9 /* MaterialCommunityIcons.ttf in Resources */,
-				B0B0D9EDF73C421A8773ED75 /* MaterialIcons.ttf in Resources */,
-				DBCB4740220E459B87933EEE /* Octicons.ttf in Resources */,
-				1A4B32C1BB42464289A36B90 /* SimpleLineIcons.ttf in Resources */,
-				3130E55092BF4493916DA3B4 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +386,94 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		355CC7DA8337F5AEF1698A77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorldTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70C302280806BDA1807A26BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorld-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9974192A56059547AD4F4AE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorld-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB6717BF3EB29DDABE654B33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorld-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -509,7 +529,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				F854B5C92366C17D00FFE2EE /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -561,8 +580,8 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AEB0CA6FABC523DFBF9C4BD /* Pods-HelloWorldTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -584,8 +603,8 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C2926295AF2436C77F3906 /* Pods-HelloWorldTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = HelloWorldTests/Info.plist;
@@ -604,9 +623,9 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0812038BAE05AE58D8D7EF92 /* Pods-HelloWorld.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
@@ -618,18 +637,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = HelloWorld;
-				SWIFT_OBJC_BRIDGING_HEADER = "HelloWorld-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150F9CAB1F37E25441833878 /* Pods-HelloWorld.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -640,14 +656,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = HelloWorld;
-				SWIFT_OBJC_BRIDGING_HEADER = "HelloWorld-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22F96AD0271B1564A37562A /* Pods-HelloWorld-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -675,6 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7BF7D6C01DD33DD6DCB9DC /* Pods-HelloWorld-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -702,6 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DFDF97007A31AB6D863CAFB /* Pods-HelloWorld-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,6 +745,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF4F4EE229335945830194F /* Pods-HelloWorld-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
