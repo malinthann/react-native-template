@@ -13,7 +13,7 @@ npx react-native init MyApp --template=https://github.com/delyethan/react-native
 ### dependencies
 
     {
-   "@types/lodash": "^4.14.138",
+    "@types/lodash": "^4.14.138",
     "@types/react-native-snap-carousel": "^3.7.4",
     "@types/react-native-vector-icons": "^6.4.2",
     "lodash": "^4.17.15",
