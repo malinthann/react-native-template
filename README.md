@@ -13,7 +13,7 @@ npx react-native init MyApp --template=https://github.com/delyethan/react-native
 ### dependencies
 
     {
-    "@types/lodash": "^4.14.138",
+   "@types/lodash": "^4.14.138",
     "@types/react-native-snap-carousel": "^3.7.4",
     "@types/react-native-vector-icons": "^6.4.2",
     "lodash": "^4.17.15",
@@ -23,7 +23,7 @@ npx react-native init MyApp --template=https://github.com/delyethan/react-native
     "mobx-react": "^5.4.4",
     "moment": "^2.24.0",
     "react": "16.9.0",
-    "react-native": "^0.61.4",
+    "react-native": "0.61.4",
     "react-native-fast-image": "^7.0.2",
     "react-native-firebase": "^5.5.6",
     "react-native-gesture-handler": "^1.3.0",
@@ -53,13 +53,13 @@ npx react-native init MyApp --template=https://github.com/delyethan/react-native
     "@babel/runtime": "^7.6.2",
     "@types/jest": "^24.0.18",
     "@types/react": "^16.9.2",
-    "@types/react-native": "^0.60.7",
-    "@types/react-test-renderer": "^16.9.0",
+    "@types/react-native": "^0.60.22",
+    "@types/react-test-renderer": "16.9.0",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "eslint": "^6.2.1",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.56.0",
     "react-test-renderer": "16.9.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.3"
     }
