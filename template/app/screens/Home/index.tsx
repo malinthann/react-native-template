@@ -1,10 +1,8 @@
 import * as React from 'react'
-import { View, StyleSheet, Text } from 'react-native'
-import _styles from '../../_styles'
 
-interface Props {}
+interface Props { }
 
-interface State {}
+interface State { }
 
 export default class HomeScreen extends React.Component<Props, State> {
     constructor(props: Props) {
@@ -14,11 +12,7 @@ export default class HomeScreen extends React.Component<Props, State> {
 
     render() {
         return (
-            <View style={_styles.flx1}>
-                <Text>Okay</Text>
-            </View>
+            <HomeScreen />
         )
     }
 }
-
-const styles = StyleSheet.create({})
