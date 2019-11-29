@@ -9,6 +9,8 @@ npx react-native init MyApp --template=https://github.com/delyethan/react-native
 
 ```
 
+Create swift Bridging by add new file swift to .xcworkspace file
+
 
 ### dependencies
 

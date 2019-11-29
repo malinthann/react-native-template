@@ -14,7 +14,7 @@ const customTextProps = {
 	style: {
 		color: modules.TEXT,
     fontSize: modules.FONT,
-    ...fontNormal,
+    // ...fontNormal,
 	}
 };
 setCustomText(customTextProps);
