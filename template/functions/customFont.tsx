@@ -71,6 +71,6 @@ export const fontGSans = fontMaker({ weight: 'Normal', family: 'GoogleSans', fam
 export const FontGSansSemiBold = fontMaker({ weight: 'SemiBold', family: 'GoogleSans', familyIOS: 'Google Sans' });
 export const FontGSansBold = fontMaker({ weight: 'Bold', family: 'GoogleSans', familyIOS: 'Google Sans' });
 
-export const Battambang = fontMaker({ weight: 'Regular', family: 'Battambang', familyIOS: 'Kh Battambang' });
-export const BattambangBold = fontMaker({ weight: 'Bold', family: 'Battambang', familyIOS: 'Kh Battambang' });
+export const Battambang = fontMaker({ weight: 'Regular', family: 'Battambang', familyIOS: 'Battambang' });
+export const BattambangBold = fontMaker({ weight: 'Bold', family: 'Battambang', familyIOS: 'Battambang' });
 export const Moul = fontMaker({ weight: 'Regular', family: 'Moul', familyIOS: 'Moul' });
