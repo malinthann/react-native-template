@@ -45,6 +45,7 @@ buck-out/
 \.buckd/
 # *.keystore
 *.apk
+*.aab
 *.hprof
 
 # fastlane
