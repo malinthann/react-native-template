@@ -1,4 +1,4 @@
-export default {
+const colors = {
   LINK: "#1a73e8",
   PRIMARY: "#E4AF09",
   PRIMARY_TAB: "#8e96a3",
@@ -42,3 +42,5 @@ export default {
   STATISTIC_GEO: ["#F5B828", "#F48F5E", "#EC72D9"],
   CRIME_DETAIL: ["#F1f3f4", "#F1f3f4",]
 };
+
+export default colors

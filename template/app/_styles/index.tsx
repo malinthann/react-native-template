@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 import modules from '../modules';
-export default StyleSheet.create({
+const _styles = StyleSheet.create({
 	border: {
 		borderBottomColor: modules.BORDER_COLOR,
 		borderBottomWidth: 1
@@ -154,3 +154,6 @@ export default StyleSheet.create({
 		paddingHorizontal: modules.BODY_HORIZONTAL
 	}
 });
+
+
+export default _styles

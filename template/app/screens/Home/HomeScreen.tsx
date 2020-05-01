@@ -1,10 +1,11 @@
 import * as React from 'react';
-import { Text, View, StyleSheet, SafeAreaView } from 'react-native';
-import _styles from '../../_styles'
+import { View, Text, SafeAreaView, StyleSheet } from 'react-native';
+import _styles from '../../_styles';
 
-interface Props { }
+export interface Props {
+}
 
-export default ({ }: Props) => {
+export default function HomeScreen(props: Props): React.ReactElement {
   return (
     <View style={_styles.flx1}>
       <SafeAreaView>
@@ -12,8 +13,8 @@ export default ({ }: Props) => {
       </SafeAreaView>
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
-  container: {}
+
 });

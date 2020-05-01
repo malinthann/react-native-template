@@ -1,7 +1,7 @@
 import { Dimensions } from 'react-native';
 const { width: viewportWidth, height: viewportHeight } = Dimensions.get('window');
 
-export default {
+const layout = {
 	GRID_SPACING: 8,
 	BODY_HORIZONTAL: 15,
 	BODY_HORIZONTAL_24: 24,
@@ -41,3 +41,5 @@ export default {
 	SMALL: 11,
 	FONT: 15
 };
+
+export default layout
