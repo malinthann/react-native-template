@@ -1,4 +1,4 @@
-## React Native Typescript[![Build Status] (https://travis-ci.com/delyethan/react-native-template.svg?branch=master)](https://travis-ci.com/delyethan/react-native-template)
+## React Native Typescript [![Build Status](https://travis-ci.com/delyethan/react-native-template.svg?branch=master)](https://travis-ci.com/delyethan/react-native-template)
 
 ## Quickstart
 
