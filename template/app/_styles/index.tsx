@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
 import modules from '../modules';
+
 const _styles = StyleSheet.create({
 	border: {
 		borderBottomColor: modules.BORDER_COLOR,

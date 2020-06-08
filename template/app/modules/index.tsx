@@ -5,7 +5,7 @@ import images from "./images";
 const modules = {
   ...colors,
   ...layout,
-  ...images
+  ...images,
 };
 
 export default modules

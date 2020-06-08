@@ -5,12 +5,13 @@ import 'mobx-react/batchingForReactNative'
  */
 
 import { AppRegistry } from 'react-native';
+import { setCustomText } from 'react-native-global-props';
+import { enableScreens } from 'react-native-screens';
 import App from './App';
 import { name as appName } from './app.json';
-import { setCustomText } from 'react-native-global-props';
 import modules from './app/modules';
 import { fontNormal } from './customs/customFont';
-import { enableScreens } from 'react-native-screens';
+
 enableScreens();
 
 const customTextProps = {

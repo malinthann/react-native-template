@@ -67,6 +67,8 @@ fix Android 8.0 crash splash screen by config android/app/src/main/res/values-v2
     "@typescript-eslint/parser": "^2.27.0",
     "babel-jest": "^24.9.0",
     "eslint": "^6.5.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-react-hooks": "^4.0.4",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.58.0",
     "prettier": "^2.0.4",

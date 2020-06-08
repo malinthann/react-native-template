@@ -1,22 +1,27 @@
 module.exports = {
   root: true,
-  extends: '@react-native-community',
+  extends: ['@react-native-community', 'plugin:import/errors', 'plugin:import/warnings', 'plugin:import/typescript', 'plugin:react-hooks/recommended'],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'react-hooks'],
   rules: {
-    // Static analysis:
-
+    //hook
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    //
+    "quotes": ["off"],
+    "semi": ["off"],
+    "comma-dangle": ['off'],
     // ensure imports point to files/modules that can be resolved
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-    'import/no-unresolved': ['error', { commonjs: true, caseSensitive: true }],
+    'import/no-unresolved': ['off', { commonjs: true, caseSensitive: true }],
 
     // ensure named imports coupled with named exports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md#when-not-to-use-it
-    'import/named': 'error',
+    'import/named': 'off',
 
     // ensure default import coupled with default export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md#when-not-to-use-it
-    'import/default': 'off',
+    'import/default': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md
     'import/namespace': 'off',
@@ -46,7 +51,6 @@ module.exports = {
       devDependencies: [
         'test/**', // tape, common npm pattern
         'tests/**', // also common npm pattern
-        'spec/**', // mocha, rspec-like pattern
         '**/__tests__/**', // jest pattern
         '**/__mocks__/**', // jest pattern
         'test.{js,jsx}', // repos with a single test file
@@ -54,16 +58,6 @@ module.exports = {
         '**/*{.,_}{test,spec}.{js,jsx}', // tests where the extension or filename suffix denotes that it is a test
         '**/jest.config.js', // jest config
         '**/jest.setup.js', // jest setup
-        '**/vue.config.js', // vue-cli config
-        '**/webpack.config.js', // webpack config
-        '**/webpack.config.*.js', // webpack config
-        '**/rollup.config.js', // rollup config
-        '**/rollup.config.*.js', // rollup config
-        '**/gulpfile.js', // gulp config
-        '**/gulpfile.*.js', // gulp config
-        '**/Gruntfile{,.js}', // grunt config
-        '**/protractor.conf.js', // protractor config
-        '**/protractor.conf.*.js', // protractor config
         '**/karma.conf.js' // karma config
       ],
       optionalDependencies: false,
@@ -233,5 +227,6 @@ module.exports = {
       missingExports: true,
       unusedExports: true,
     }],
+    'prettier/prettier': 0,
   },
 };

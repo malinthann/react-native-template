@@ -3,23 +3,22 @@ import { Provider } from 'mobx-react';
 import { ActivityIndicator, StatusBar, YellowBox } from 'react-native';
 import App from '../app/routes';
 
-export interface Props {}
+export interface Props { }
 
 export interface State {
 	ready: boolean;
 }
-YellowBox.ignoreWarnings([ 'Warning: componentWill' ]);
-export default function(stores: any) {
+YellowBox.ignoreWarnings(['Warning: componentWill']);
+function app(stores: any) {
 	return class Setup extends React.Component<Props, State> {
 		constructor(props: any) {
 			super(props);
 			this.state = {
-				ready: false
+				ready: true, //TODO: default false when connection check
 			};
 		}
 
 		componentDidMount() {
-			this.setState({ ready: true });
 			StatusBar.setBarStyle('dark-content');
 		}
 
@@ -35,3 +34,5 @@ export default function(stores: any) {
 		}
 	};
 }
+
+export default app
