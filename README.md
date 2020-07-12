@@ -21,13 +21,14 @@ fix Android 8.0 crash splash screen by config android/app/src/main/res/values-v2
 
     {
     "@react-native-community/masked-view": "^0.1.6",
-    "@types/lodash": "^4.14.149",
-    "@types/react-native-snap-carousel": "^3.7.4",
+    "@react-native-community/toolbar-android": "0.1.0-rc.2",
+    "@types/lodash": "^4.14.157",
+    "@types/react-native-snap-carousel": "^3.8.1",
     "@types/react-native-vector-icons": "^6.4.5",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mobx": "^5.15.0",
     "mobx-react": "^5.4.4",
-    "moment": "^2.24.0",
+    "moment": "^2.27.0",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-fast-image": "^7.0.2",
