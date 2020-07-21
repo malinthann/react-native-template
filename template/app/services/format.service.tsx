@@ -1,5 +1,5 @@
 import moment from 'moment';
 
-export function toMidDate(Date: Date) {
-	return moment(Date).format('MMM Do YYYY');
+export function toMidDate(date: Date) {
+	return moment(date || new Date()).format('MMM Do YYYY');
 }

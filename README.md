@@ -5,7 +5,12 @@
 To get started with our template, run one of the following commands:
 ```shell
 # using npx and the github repo directly
-npx react-native init MyApp --template=https://github.com/delyethan/react-native-template
+npx react-native init MyApp --template=https://github.com/delyethan/react-native-template#0.63.0
+
+```
+```shell
+# using npx with last react-native and the github repo directly
+npx react-native@latest init MyApp --template=https://github.com/delyethan/react-native-template#0.63.0
 
 ```
 
@@ -35,7 +40,7 @@ fix Android 8.0 crash splash screen by config android/app/src/main/res/values-v2
     "moment": "^2.24.0",
     "react": "16.13.1",
     "react-hook-form": "^6.0.4",
-    "react-native": "0.63.0",
+    "react-native": "0.63.1",
     "react-native-fast-image": "^8.1.5",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-global-props": "^1.1.5",
@@ -62,7 +67,7 @@ fix Android 8.0 crash splash screen by config android/app/src/main/res/values-v2
     "@react-native-community/eslint-config": "^2.0.0",
     "@types/jest": "^26.0.4",
     "@types/react": "^16.9.43",
-    "@types/react-native": "^0.62.18",
+    "@types/react-native": "^0.63.1",
     "@types/react-test-renderer": "^16.9.2",
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
