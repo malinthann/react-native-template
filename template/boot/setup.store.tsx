@@ -10,29 +10,27 @@ export interface State {
 }
 LogBox.ignoreLogs(['Warning: componentWill']);
 function app(stores: any) {
-	return class Setup extends React.Component<Props, State> {
-		constructor(props: any) {
-			super(props);
-			this.state = {
-				ready: true, //TODO: default false when connection check
-			};
-		}
+	return React.memo(function Setup() {
+		const [ready, setReady] = React.useState<boolean>(false)
 
-		componentDidMount() {
-			StatusBar.setBarStyle('dark-content');
-		}
-
-		render() {
-			if (!this.state.ready) {
-				return <ActivityIndicator />;
+		React.useEffect(() => {
+			let _mounted: boolean = true
+			if (_mounted) {
+				StatusBar.setBarStyle('dark-content')
+				setReady(true)
 			}
-			return (
-				<Provider {...stores}>
-					<App />
-				</Provider>
-			);
-		}
-	};
+			return () => {
+				_mounted = false
+			}
+		}, [])
+
+		if (!ready) { <ActivityIndicator /> }
+		return (
+			<Provider {...stores}>
+				<App />
+			</Provider>
+		);
+	})
 }
 
 export default app
