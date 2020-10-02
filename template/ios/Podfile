@@ -19,7 +19,6 @@ target 'HelloWorld' do
   # you should disable these next few lines.
   use_flipper!
   post_install do |installer|
-    installer.pods_project.targets.each do |target|
     system("sed -i '' '/s.resources/d' ../node_modules/react-native-vector-icons/RNVectorIcons.podspec")
     flipper_post_install(installer)
     end
@@ -33,5 +32,3 @@ target 'HelloWorld' do
       # Pods for testing
     end
   end
-
-end
