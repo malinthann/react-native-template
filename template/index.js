@@ -1,5 +1,4 @@
 import 'react-native-gesture-handler';
-import 'mobx-react/batchingForReactNative';
 /**
  * @format
  */
