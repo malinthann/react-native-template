@@ -1,13 +1,22 @@
-import React from 'react'
-import { createAppContainer } from 'react-navigation'
-import { createStackNavigator } from 'react-navigation-stack'
-import HomeContainer from '../screens/Home'
+import * as React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "react-native-screens/native-stack";
+import HomeContainer from "../screens/Home";
 
-const APP = createStackNavigator(
-    { HOME: HomeContainer },
-    {
-        headerMode: 'none',
-    },
-)
+const HomeStack = createNativeStackNavigator();
 
-export default createAppContainer(APP)
+function HOME_STACK() {
+  return (
+    <HomeStack.Navigator screenOptions={{ headerShown: false }}>
+      <HomeStack.Screen name="HOME" component={HomeContainer} />
+    </HomeStack.Navigator>
+  );
+}
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <HOME_STACK />
+    </NavigationContainer>
+  );
+}

@@ -1,37 +1,40 @@
-import React from 'react';
 import { Provider } from 'mobx-react';
-import { ActivityIndicator, StatusBar, YellowBox } from 'react-native';
-import App from '../app/routes';
+import * as React from 'react';
+import { ActivityIndicator, LogBox, StatusBar } from 'react-native';
+// Lazy load component
+const App = React.lazy(() => import("../app/routes"))
 
-export interface Props {}
+export interface Props { }
 
 export interface State {
 	ready: boolean;
 }
-YellowBox.ignoreWarnings([ 'Warning: componentWill' ]);
-export default function(stores: any) {
-	return class Setup extends React.Component<Props, State> {
-		constructor(props: any) {
-			super(props);
-			this.state = {
-				ready: false
-			};
-		}
 
-		componentDidMount() {
-			this.setState({ ready: true });
-			StatusBar.setBarStyle('dark-content');
-		}
+LogBox.ignoreLogs(['Warning: componentWill']);
+function app(stores: any) {
+	return React.memo(function Setup() {
+		const [ready, setReady] = React.useState<boolean>(false)
 
-		render() {
-			if (!this.state.ready) {
-				return <ActivityIndicator />;
+		React.useEffect(() => {
+			let _mounted: boolean = true
+			if (_mounted) {
+				StatusBar.setBarStyle('dark-content')
+				setReady(true)
 			}
-			return (
-				<Provider {...stores}>
+			return () => {
+				_mounted = false
+			}
+		}, [])
+
+		if (!ready) { return <ActivityIndicator /> }
+		return (
+			<Provider {...stores}>
+				<React.Suspense fallback={true}>
 					<App />
-				</Provider>
-			);
-		}
-	};
+				</React.Suspense>
+			</Provider>
+		);
+	})
 }
+
+export default app

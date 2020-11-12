@@ -1,7 +1,9 @@
 import config from "./config.store";
-import app from "./setup.store";
+import App from "./setup.store";
 
-export default function () {
+function boot() {
 	const stores = config();
-	return app(stores);
+	return App(stores);
 }
+export default boot
+

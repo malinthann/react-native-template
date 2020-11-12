@@ -3,17 +3,8 @@ import HomeScreen from './HomeScreen'
 
 interface Props { }
 
-interface State { }
-
-export default class HomeContainer extends React.Component<Props, State> {
-    constructor(props: Props) {
-        super(props)
-        this.state = {}
-    }
-
-    render() {
-        return (
-            <HomeScreen />
-        )
-    }
+function HomeContainer(props: Props): React.ReactElement {
+  return <HomeScreen />
 }
+
+export default HomeContainer

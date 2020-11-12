@@ -1,17 +1,20 @@
 {
   "compilerOptions": {
+    "resolveJsonModule": true,
     "declaration": false,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "jsx": "react",
-    "lib": ["es2017"],
+    "lib": ["ESNext"],
     "moduleResolution": "node",
+    "module": "ESNext",
     "noEmit": true,
     "strict": true,
-    "target": "esnext",
-    "experimentalDecorators": true
+    "target": "ESNext",
+    "experimentalDecorators": true,
+    "noImplicitAny": true
   },
   "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
 }

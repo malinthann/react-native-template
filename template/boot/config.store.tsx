@@ -1,3 +1,4 @@
-export default function() {
+function config() {
 	return {};
 }
+export default config
