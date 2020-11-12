@@ -7,10 +7,6 @@ To get started with our template, run one of the following commands:
 # using npx and the github repo directly
 npx react-native init MyApp --template=https://github.com/delyethan/react-native-template
 
-```
-```shell
-# using npx with last react-native and the github repo directly
-npx react-native@latest init MyApp --template=https://github.com/delyethan/react-native-template
 
 ```
 ```shell
