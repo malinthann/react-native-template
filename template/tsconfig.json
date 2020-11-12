@@ -12,9 +12,9 @@
     "module": "ESNext",
     "noEmit": true,
     "strict": true,
-    "target": "esnext",
+    "target": "ESNext",
     "experimentalDecorators": true,
     "noImplicitAny": true
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
 }

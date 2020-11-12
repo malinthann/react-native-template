@@ -1,13 +1,15 @@
-import React from 'react';
 import { Provider } from 'mobx-react';
-import { ActivityIndicator, StatusBar, LogBox } from 'react-native';
-import App from '../app/routes';
+import * as React from 'react';
+import { ActivityIndicator, LogBox, StatusBar } from 'react-native';
+// Lazy load component
+const App = React.lazy(() => import("../app/routes"))
 
 export interface Props { }
 
 export interface State {
 	ready: boolean;
 }
+
 LogBox.ignoreLogs(['Warning: componentWill']);
 function app(stores: any) {
 	return React.memo(function Setup() {
@@ -24,10 +26,12 @@ function app(stores: any) {
 			}
 		}, [])
 
-		if (!ready) { <ActivityIndicator /> }
+		if (!ready) { return <ActivityIndicator /> }
 		return (
 			<Provider {...stores}>
-				<App />
+				<React.Suspense fallback={true}>
+					<App />
+				</React.Suspense>
 			</Provider>
 		);
 	})
