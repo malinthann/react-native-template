@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import modules from '../modules';
+import modules from 'modules';
 
 const _styles = StyleSheet.create({
 	border: {
