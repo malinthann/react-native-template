@@ -47,14 +47,13 @@ const font: any = {
 }
 
 const fontMaker = (options: any) => {
-	let { weight, family, familyIOS }: Props = Object.assign(
-		{
-			weight: '400',
-			family: 'OpenSans',
-			familyIOS: 'Open Sans',
-		},
-		options,
-	)
+	// eslint-disable-next-line prefer-const
+	let { weight, family, familyIOS }: Props = ({
+		weight: '400',
+		family: 'OpenSans',
+		familyIOS: 'Open Sans',
+		...options,
+	})
 	const { weights } = font[family]
 	if (Platform.OS === 'android') {
 		weight = weights[weight] ? weight : ''
