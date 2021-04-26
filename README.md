@@ -26,7 +26,7 @@ fix Android 8.0 crash splash screen by config android/app/src/main/res/values-v2
 ### dependencies
 
     {
-   "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/masked-view": "^0.1.10",
     "@react-native-firebase/app": "^11.3.3",
     "@react-native-firebase/auth": "^11.3.3",
     "@react-native-firebase/firestore": "^11.3.3",
