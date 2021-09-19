@@ -3,7 +3,7 @@ import { NodePlopAPI } from 'plop';
 const requireField = (fieldName: any) => {
     return (value: any) => {
         if (String(value).length === 0) {
-            return fieldName + ' is required'
+            return `${fieldName  } is required`
         }
         return true
     }
