@@ -44,6 +44,12 @@ const font: any = {
 			Heavy: '700',
 		},
 	},
+	Nokora: {
+		weights: {
+			Regular: '300',
+			Bold: '600',
+		},
+	}
 }
 
 const fontMaker = (options: any) => {
@@ -138,4 +144,14 @@ export const Moul = fontMaker({
 	weight: 'Regular',
 	family: 'Moul',
 	familyIOS: 'Moul',
+})
+export const NokoraRegular = fontMaker({
+	weight: 'Regular',
+	family: 'Nokora',
+	familyIOS: 'Nokora-Regular',
+})
+export const NokoraBold = fontMaker({
+	weight: 'Bold',
+	family: 'Nokora',
+	familyIOS: 'Nokora-Bold',
 })
