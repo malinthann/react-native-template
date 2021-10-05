@@ -292,7 +292,8 @@
       }
     ],
     "react/jsx-props-no-spreading": "off",
-    "react/require-default-props": "off"
+    "react/require-default-props": "off",
+    "react/destructuring-assignment": ["off", "always", { "ignoreClassFields": true }]
   },
   "ignorePatterns": [
     ".eslintrc",

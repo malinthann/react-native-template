@@ -1,5 +1,5 @@
 module.exports = {
-  printWidth: 100, // https://github.com/airbnb/javascript#19.13
+  printWidth: 120, // https://github.com/airbnb/javascript#19.13
   tabWidth: 2, // https://github.com/airbnb/javascript#19.1
   useTabs: false, // https://github.com/airbnb/javascript#19.1
   semi: false, // https://github.com/airbnb/javascript#21.1
