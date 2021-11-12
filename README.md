@@ -40,7 +40,7 @@ fix Android 8.0 crash splash screen by config android/app/src/main/res/values-v2
     "mobx": "^5.15.7",
     "mobx-react": "^6.3.1",
     "react": "17.0.2",
-    "react-native": "0.66.0",
+    "react-native": "0.66.3",
     "react-native-android-keyboard-adjust": "^1.2.0",
     "react-native-animated-splash-screen": "^2.0.5",
     "react-native-fast-image": "^8.5.8",
