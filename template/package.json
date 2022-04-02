@@ -7,7 +7,7 @@
     "format": "run-s format:package format:prettier format:eslint",
     "format:eslint": "eslint --fix ./ >/dev/null 2>&1 || true",
     "format:package": "prettier-package-json --write",
-    "format:prettier": "prettier --write \"**/*.{js,json,md,yml}\"",
+    "format:prettier": "prettier --ignore-path .gitignore --write \"**/*.{js,json,md,yml,tsx,ts}\"",
     "generate": "plop",
     "generate-env-types": "node scripts/generateEnvTypes.js",
     "postinstall": "git init; npm run prepare; yarn run infinite-flatlist-patch; sed -i '' '/s.resources/d' ./node_modules/react-native-vector-icons/RNVectorIcons.podspec",
