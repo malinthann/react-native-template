@@ -44,7 +44,7 @@ fix Android 8.0 crash splash screen by config android/app/src/main/res/values-v2
     "react-native-android-keyboard-adjust": "^1.2.0",
     "react-native-animated-splash-screen": "^2.0.5",
     "react-native-fast-image": "^8.5.11",
-    "react-native-gesture-handler": "^2.3.2",
+    "react-native-gesture-handler": "^2.4.0",
     "react-native-global-props": "^1.1.5",
     "react-native-keyboard-aware-scroll-view": "^0.9.5",
     "react-native-linear-gradient": "^2.5.6",
