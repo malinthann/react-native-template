@@ -1,21 +1,22 @@
 /**
  * @format
  */
- import 'react-native-gesture-handler'
- import { setCustomText, setCustomTouchableOpacity, setCustomTextInput } from 'react-native-global-props'
- import { enableScreens } from 'react-native-screens'
- import { AppRegistry } from 'react-native'
- import { fontNormal } from './customs/customFont'
- import modules from './app/modules'
- import App from './App'
- import { name as appName } from './app.json'
- 
- enableScreens()
- 
- const customTextProps = {
+import 'react-native-gesture-handler'
+import { setCustomText, setCustomTouchableOpacity, setCustomTextInput } from 'react-native-global-props'
+import { enableScreens } from 'react-native-screens'
+import { AppRegistry } from 'react-native'
+import { fontNormal } from './customs/customFont'
+import modules from './app/modules'
+import App from './App'
+import { name as appName } from './app.json'
+
+enableScreens()
+
+const customTextProps = {
+  allowFontScaling: false,
   style: {
     fontSize: modules.FONT,
-    ...fontNormal,
+    // ...fontNormal,
   },
 }
 const customTouchableOpacityProps = {
@@ -34,5 +35,5 @@ const customTextInputProps = {
 setCustomText(customTextProps)
 setCustomTouchableOpacity(customTouchableOpacityProps)
 setCustomTextInput(customTextInputProps)
- 
- AppRegistry.registerComponent(appName, () => App)
+
+AppRegistry.registerComponent(appName, () => App)
